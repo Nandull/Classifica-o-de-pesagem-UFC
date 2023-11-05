@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1{ 
+    font-family:rubik dirt, sans-serif;
+    color: white;
+    font-size: 76px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{ 
+    font-family:rubik dirt, sans-serif;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    
+
+
+}
+
+h3{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+ 
+
+}
+body{
+background-image:url(../img/fundodois.png)
+
+}
+
+
+
+#peso{
+border-radius: 10px;
+border: solid 2px white;
+height: 55px;
+width: 300px;
+}
+button{
+transform: translate(-50% 50%);
+padding: 10px 60px;
+font-size: 20px;
+border-radius: 5px;
+cursor: pointer;
+background-color: black;
+color: white;
+border: 2px solid white;
+transition: all 0.2s ease-in-out;
+
+}
+
+button:hover{
+    box-shadow: 0 0 15px white, inset 0 0 15px white;
+    text-shadow:  0 0 15px white;
+
+}
+
+#main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+input::placeholder {
+    color: gray;
+    font-size: 18px;
+}
+
+textarea::placeholder {
+    color: blue;
+}
+
+input{
+    transform: translate(-50% 50%); 
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+
+  
